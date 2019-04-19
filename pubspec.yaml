@@ -1,0 +1,30 @@
+name: eventful
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: any
+  firebase_auth: any
+  cloud_firestore: any
+  uuid: any
+  json_serializable: any
+  cupertino_icons: ^0.1.2
+  datetime_picker_formfield: any
+  cached_network_image: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any
+  json_annotation: any
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
